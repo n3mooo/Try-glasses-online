@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+        url(https://i.pinimg.com/originals/10/d3/9e/10d39ef3f03bcd06809ee7166e2c333f.jpg);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Source Sans Pro", sans-serif;
+}
+.main {
+    overflow: hidden;
+    height: 85%;
+    width: 85%;
+    background-color: transparent;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 50px;
+}
+
+.title {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+    padding: 10px;
+}
+
+.face {
+    flex: 0 1 50%;
+}
+
+.glassOfModel {
+    position: absolute;
+    top: 217px;
+    left: 15.2%;
+    width: 350px;
+    opacity: 0.7;
+}
+
+.product {
+    flex: 0 1 50%;
+}
+
+.btnProduct {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.btnActive {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    transform: scale(1.3);
+}
